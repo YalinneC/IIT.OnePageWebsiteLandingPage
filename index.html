@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<! Picture is an edited version of https://image.freepik.com/free-icon/oscars-movie-award_318-41295.jpg at http://www.freepik.com/free-photos-vectors/the-oscars >
+
+<head>
+	<title>Join for the exclusive ACADEMY AWARD live stream</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+	<! Linking to a fancy google font :) >
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style/cool.css" />	
+</head>
+
+<body>
+	<div id="frameBg">
+		<div id="titleBox">
+			<h1>Oscar Closeup Stream!</h1>
+		</div>	
+		<div id="regBox">		
+			
+			<form id="signUp" action="">
+				<ul>
+				<li><label for="email">Enter your email address:</label></li>
+				<li><input type="email" name="email" id="email" placeholder="ie. cantin@flash.mx"><img src="./images/okImg.svg" id="okImg" alt="OK"></li>
+				<li><input type="submit" name="submit" id="submit" value="Sign up for free!"></li>
+				</ul>
+			</form>
+		</div>
+		<div id="textBox">
+			<p>Join our unique live report from the 88th academy awards! Experience real time interviews during the show and so much more!<p>
+			<br/>
+			<p>LIVE OSCAR SUNDAY FEB 28th 7e|4p</p>
+		</div>
+		<div id="sponsorBox">
+			<p>Our proud sponsor</p>
+			<img src="./images/iitLogoX.png" alt="IIT logo">
+		</div>		
+	</div>  
+	
+	<script type="text/javascript">
+	<!--
+		var okImg  = document.getElementById('okImg');
+		var email = document.getElementById('email');
+
+		email.addEventListener("keyup", function (event) {
+		  if ((email.value != "") && (email.validity.valid)) {
+			okImg.style.visibility = "visible"; // Reset the content of the message
+			email.style.border ="0";
+			email.style.outline = "none";
+		  }
+		  else if (email.value != "") {
+			okImg.style.visibility = "hidden";
+			email.style.border ="1pt solid red";
+			email.style.outline = "none";
+		  }
+			else {
+			okImg.style.visibility = "hidden";
+			email.style.border ="0";
+			email.style.outline = "none";
+		  }	
+		}, false);	
+	//-->
+	</script>	
+	
+</body>
+
+</html>
